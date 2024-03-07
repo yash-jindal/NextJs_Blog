@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.input{
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+    color: #bbb;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button{
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.googleButton{
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+}

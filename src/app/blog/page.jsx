@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 async function getData() {
-  const res = await fetch("http://127.0.0.1:3000/api/posts", { cache: "no-store", });
+  const res = await fetch("https://next-js-blog-nine-ruby.vercel.app/api/posts", { cache: "no-store", });
 
   if (!res.ok) {
     throw new Error('Failed to fetch data');

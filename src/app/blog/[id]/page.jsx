@@ -4,7 +4,7 @@ import styles from './page.module.css'
 import { notFound } from 'next/navigation'
 
 async function getData(id) {
-  const res = await fetch(`http://127.0.0.1:3000/api/posts/${id}`, { cache: "no-store", });
+  const res = await fetch(`https://next-js-blog-nine-ruby.vercel.app/api/posts/${id}`, { cache: "no-store", });
 
   if (!res.ok) {
     return notFound()
